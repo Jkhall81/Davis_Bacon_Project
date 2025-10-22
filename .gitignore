@@ -1,0 +1,80 @@
+# ============================
+# OS / Editor Files
+# ============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# ============================
+# Environment Files
+# ============================
+.env
+.env.*
+!.env.example
+
+# ============================
+# Go
+# ============================
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache & dependency dirs
+bin/
+build/
+dist/
+coverage.out
+
+# ============================
+# Python (MCP_Debug_Service)
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+venv/
+.env/
+env/
+build/
+dist/
+pip-wheel-metadata/
+*.spec
+
+# ============================
+# Docker
+# ============================
+# Ignore local docker-compose override files
+docker-compose.override.yml
+# Ignore any local volumes or tmp dirs
+data/
+tmp/
+*.pid
+
+# ============================
+# Misc
+# ============================
+# Ignore SQLite / temporary databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore node_modules (if you ever add JS tooling)
+node_modules/
+
+# ============================
+# Coverage / Reports
+# ============================
+coverage/
+*.lcov
